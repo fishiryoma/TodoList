@@ -11,6 +11,8 @@ const TodoPage = () => {
   const navigate = useNavigate();
   const { isAuthenticated, currentMember } = useAuth();
 
+  const todoNums = todos.length;
+
   const handleChange = (value) => {
     setInputValue(value);
   };
@@ -61,6 +63,7 @@ const TodoPage = () => {
             id: data.id,
             title: data.title,
             isDone: data.isDone,
+            isEdit: false,
           },
         ];
       });
@@ -153,7 +156,7 @@ const TodoPage = () => {
 
   return (
     <div>
-      <Header />
+      <Header username={currentMember?.name} />
       <TodoInput
         inputValue={inputValue}
         onChange={handleChange}
@@ -167,7 +170,7 @@ const TodoPage = () => {
         onChangeMode={handleChangeMode}
         onDelete={handleDelete}
       />
-      <Footer />
+      <Footer numOfTodos={todoNums} />
     </div>
   );
 };
