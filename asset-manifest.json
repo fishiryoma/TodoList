@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/todolist-react-starter/static/css/main.8a192b7b.chunk.css",
+    "main.css": "/todolist-react-starter/static/css/main.81e9703d.chunk.css",
     "main.js": "/todolist-react-starter/static/js/main.0bb8243a.chunk.js",
     "main.js.map": "/todolist-react-starter/static/js/main.0bb8243a.chunk.js.map",
     "runtime-main.js": "/todolist-react-starter/static/js/runtime-main.44640f8e.js",
@@ -10,7 +10,7 @@
     "static/js/3.3095a65e.chunk.js": "/todolist-react-starter/static/js/3.3095a65e.chunk.js",
     "static/js/3.3095a65e.chunk.js.map": "/todolist-react-starter/static/js/3.3095a65e.chunk.js.map",
     "index.html": "/todolist-react-starter/index.html",
-    "static/css/main.8a192b7b.chunk.css.map": "/todolist-react-starter/static/css/main.8a192b7b.chunk.css.map",
+    "static/css/main.81e9703d.chunk.css.map": "/todolist-react-starter/static/css/main.81e9703d.chunk.css.map",
     "static/js/2.74bf7fa5.chunk.js.LICENSE.txt": "/todolist-react-starter/static/js/2.74bf7fa5.chunk.js.LICENSE.txt",
     "static/media/ac-logo.f4e0f3cb.svg": "/todolist-react-starter/static/media/ac-logo.f4e0f3cb.svg",
     "static/media/check-active.95ca055c.svg": "/todolist-react-starter/static/media/check-active.95ca055c.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.44640f8e.js",
     "static/js/2.74bf7fa5.chunk.js",
-    "static/css/main.8a192b7b.chunk.css",
+    "static/css/main.81e9703d.chunk.css",
     "static/js/main.0bb8243a.chunk.js"
   ]
 }
