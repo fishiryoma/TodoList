@@ -9,7 +9,7 @@ import { AuthInput } from 'components';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Swal from 'sweetalert2';
-import { register } from 'api/auth';
+import { register } from '../api/auth';
 
 const SignUpPage = () => {
   const [username, setUsername] = useState('');
