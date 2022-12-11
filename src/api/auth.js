@@ -38,5 +38,6 @@ export const register = async ({ username, email, password }) => {
     return data;
   } catch (error) {
     console.error('[Register Failed]: ', error);
+    return { success: false };
   }
 };
