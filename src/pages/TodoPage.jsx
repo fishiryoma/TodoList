@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import { getTodos, createTodo, patchTodo, deleteTodo } from '../api/todos';
 import { useNavigate } from 'react-router-dom';
-import { checkPermission } from 'api/auth';
+import { checkPermission } from '../api/auth';
 
 const TodoPage = () => {
   const [inputValue, setInputValue] = useState('');
