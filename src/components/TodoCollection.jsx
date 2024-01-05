@@ -1,14 +1,24 @@
 import TodoItem from './TodoItem';
 
-const TodoCollection = () => {
+const TodoCollection = ({
+  todos,
+  onSave,
+  onDelete,
+  onToggleDone,
+  onChnageMode,
+}) => {
   return (
     <div>
       TodoCollection
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
+      {todos.map((todo) => (
+        <TodoItem
+          key={todo.id}
+          todo={todo}
+          onToggleDone={onToggleDone}
+          onChnageMode={onChnageMode}
+          onSave={onSave}
+        />
+      ))}
     </div>
   );
 };
