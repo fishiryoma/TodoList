@@ -17,6 +17,7 @@ const TodoCollection = ({
           onToggleDone={onToggleDone}
           onChnageMode={onChnageMode}
           onSave={onSave}
+          onDelete={onDelete}
         />
       ))}
     </div>
