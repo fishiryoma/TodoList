@@ -43,6 +43,7 @@ export const checkPermission = async (authToken) => {
         Authorization: 'Bearer ' + authToken,
       },
     });
+
     return res.data.success;
   } catch (err) {
     console.log(`Check Permission failed ${err}`);
